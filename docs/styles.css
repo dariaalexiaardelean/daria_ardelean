@@ -133,7 +133,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 /* ---- 7. Navbar -------------------------------------------- */
 .navbar {
-  background: var(--paper) !important;
+  background: var(--night) !important;
   border-bottom: 0.5px solid rgba(139, 149, 201, 0.3);
   padding: 0.85rem 0;
   min-height: 64px;
@@ -144,7 +144,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-family: var(--font-display) !important;
   font-weight: 400 !important;
   font-size: 1.4rem !important;
-  color: var(--ink) !important;
+  color: var(--gold) !important;
   letter-spacing: 0.005em;
 }
 
@@ -153,14 +153,14 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-size: 0.78rem !important;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--storm) !important;
+  color: var(--athena) !important;
   font-weight: 500 !important;
   padding: 0.5rem 1rem !important;
   position: relative;
 }
 
 .navbar-nav .nav-link:hover {
-  color: var(--athena) !important;
+  color: var(--gold) !important;
 }
 
 .navbar-nav .nav-link.active {
@@ -182,7 +182,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 /* Right-side icons */
 .navbar .quarto-navbar-tools .quarto-navigation-tool {
-  color: var(--storm) !important;
+  color: var(--gold) !important;
 }
 
 .navbar .quarto-navbar-tools .quarto-navigation-tool:hover {
@@ -379,6 +379,19 @@ table td {
   border-bottom: 0.5px solid rgba(107, 120, 148, 0.18) !important;
 }
 
+
+
+hr::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 5px;
+  height: 5px;
+  background: var(--gold);
+  border-radius: 50%;
+}
 /* ---- 14. Horizontal rule (gold + dot) -------------------- */
 hr {
   border: none;
@@ -400,18 +413,6 @@ hr {
   background-position: center center;
   position: relative;
   opacity: 0.85;
-}
-
-hr::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 5px;
-  height: 5px;
-  background: var(--gold);
-  border-radius: 50%;
 }
 
 /* ---- 15. TOC --------------------------------------------- */

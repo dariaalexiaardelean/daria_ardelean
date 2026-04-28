@@ -20,16 +20,16 @@ website:
       - text: Contact
         href: contact.qmd
 
-    right:
-      - icon: github
-        href: https://github.com/dariaalexiaardelean
-        target: _blank
+  
 
   page-navigation: true
 
   page-footer:
-    left: "Daria Ardelean &copy; <script>document.write(new Date().getFullYear())</script>"
-  
+    left: "Daria Ardelean &copy; <script>document.write(new Date().getFullYear())</script> Forked from **[drganghe/quarto-academic-website-template](https://github.com/drganghe/quarto-academic-website-template)** "
+    right:
+      - icon: github
+        href: https://github.com/dariaalexiaardelean
+        target: _blank
     
 
   reader-mode: false
