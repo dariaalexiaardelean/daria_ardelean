@@ -3,3 +3,11 @@
 **/*.quarto_ipynb
 
 /.luarc.json
+
+/*.jpg
+
+/*.Rhistory
+
+/docs 
+
+/files

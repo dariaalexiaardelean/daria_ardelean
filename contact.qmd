@@ -1,24 +1,12 @@
 ---
 title: "Contact"
-description-meta: "Reach out to me with questions and comments"
+description-meta: "Get in touch with Daria Ardelean"
 title-block-banner: false
+toc: false
 ---
 
-<center>
+The best way to reach me is by email.
 
-**Quarto Academic**
+- Institutional e-mail: [dariaalexia.ardelean@studenti.unipd.it](mailto:dariaalexia.ardelean@studenti.unipd.it)
+- Address: Department of General Psychology, University of Padova, Via Venezia 8, 35131 Padova, Italy
 
-School
-
-College
-
-University
-
-Address: 
-
-Phone: 
-
-E-mail: 
-
-
-</center>

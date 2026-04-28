@@ -1,96 +1,31 @@
 ---
-title: "Quarto Academic, PhD"
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-image: "files/images/placeholder4.JPG"
+title: "Daria Ardelean"
+description-meta: "Personal website of Daria Ardelean"
+image: "Profile Picture Daria.jpg"
 page-navigation: false
 toc: false
-#sidebar: false
 page-layout: full
 
 about:
   id: hero-heading
   template: trestles
-  image-width: 70%
+  image-width: 80%
   links:
-    - icon: sun
-      text: Lab
-      href: https://www.github.com
-      target: _blank
-    - icon: globe
-      text: Uprofile
-      href: https://baruch.cuny.edu
-      target: _blank
-    - icon: envelope
-      text: E-mail
-      href: mailto:email@gmail.com    
+    - icon: mortarboard-fill
+      href: https://www.unipd.it/en
+    - icon: github
+      href: https://github.com/dariaalexiaardelean
     - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-      target: _blank
-    - icon: youtube
-      text: YouTube
-      href: https://www.youtube.com     
-      target: _blank 
-    - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-      href: https://orcid.org
-      target: _blank
-    - text: "{{< ai clarivate >}} Web of Science"
-      href: https://www.webofscience.com  
-      target: _blank
-    - text: "{{< ai scopus >}} Scopus"
-      href: https://www.scopus.com
-      target: _blank
-    - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com
-      target: _blank
-#    - text: "{{< ai researchgate >}} Research Gate"
-#      href: https://www.researchgate.net
-#      target: _blank
-
-listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
-  - id: recent-posts
-    contents: 
-      - posts
-      - posts/post-links.yml
-    exclude:
-      title: ""
-    type: grid
-    max-items: 3
-#    image-height: 150px
-    page-size: 3 #set same as max-times to remove the page number setting
-    fields: [image, date, title, subtitle]
-    max-description-length: 75
-    sort: 
-      - "date desc"
-      - "title asc"
+      href: https://www.linkedin.com/in/daria-ardelean-57a8b21b7/
 ---
 
 :::{#hero-heading}
 
-I'm a [Quarto Academeic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io).
+ I am a first year PhD student in Italy, at the University of Padova, Department of General Psychology. I am also one of the doctoral students at the Galilean School of Higher Education, in the Social Sciences Class. 
+ 
+ My main research interests are in clinical neuropsychology and meta-science. I have recently joined the [Quantative Psychology Lab (QPLab)](https://dpg.unipd.it/en/qplab) at the University of Padova, and the [Open Neuropsychology Data Analysis Lab (ONDA Lab)](https://sancamilloirccs-ondalab.github.io/) at San Camillo IRCCS.
 
-I'm a template that you can fork to build your own website with easy adaptation and deployment.
+ Outside of academia, I am a registered clinical psychologist in Romania, currently undergoing training in psychotherapy.
 
-I can automatically generate a neat publication list from an Excel file and enabling categories and filters.
-
-Check [README.md](https://github.com/drganghe/quarto-academic-website-template/blob/main/README.md) for more detailed instructions.
-
-## Experience
-
-- Researcher, Univerisity
-
-## Education
-
-- PhD, Univerisity
 
 :::
-
-
-<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
-## Recent Posts
-Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
-
-:::{#recent-posts}
-:::
-
-<p align="right">[All Posts »](/posts.qmd)</p>

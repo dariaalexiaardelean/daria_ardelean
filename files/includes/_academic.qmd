@@ -1,10 +1,19 @@
 
-<!-- 
+<!--
 Load Academicons v1: https://jpswalsh.github.io/academicons/
 -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<!--
+Web-font fallbacks for visitors without the local Mac system fonts.
+Mac users will still see Didot / Baskerville / Avenir Next via the CSS stack;
+everyone else gets these close equivalents from Google Fonts.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nunito+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 
 <!---
