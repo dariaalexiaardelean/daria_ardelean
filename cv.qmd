@@ -6,12 +6,18 @@ toc: true
 toc-depth: 2
 ---
 
-[Download full PDF version]() 
+[Download full PDF version](full_cv.qmd){target="_blank"} 
 
-## Education and Research Training
+## Current Position
 
 **PhD in Psychological Sciences** — Department of General Psychology, University of Padova\
 Nov 2025 – present · Supervisor: Giorgio Arcara
+
+### Qualifications
+**Clinical Psychologist** — Registered in May 2024\
+
+
+## Education 
 
 **Erasmus+ Traineeship in Non-Invasive Brain Stimulation** — University of Padova, Italy\
 Aug 2025 – Nov 2025 · Supervisor: Giulio Contemori
@@ -30,12 +36,10 @@ Feb 2020 – Jul 2020
 Nov 2020 – Jul 2023 · 180 ECTS · Final grade: Excellent\
 Thesis: *Empowering future entrepreneurs: Testing a strengths-based mindset intervention in a quasi-experimental pilot study*
 
-## Experience
+## Training
 
-**Clinical Psychologist** \ 
-Mar 2025 – present\
-Training in psychotherapy; psychological assessment and brief interventions. Registered clinical psychologist under supervision since May 2024.
-
+**Foundations of network meta-analysis** — Cochrane\
+March 2026 · 24 hours · hybrid course\
 
 ## Publications
 
@@ -43,11 +47,11 @@ Ardelean, D. A., Tisu, L., & Vîrgă, D. (2025). Empowering future entrepreneurs
 
 ## Conferences and presentations
 
-**National Alzheimer Conference** — 2025\
-E-poster presentation.
+**National Alzheimer Conference** — Bucharest, Romania\
+2025 · E-poster presentation\
 
-**Metacognition, Aging and Perception Symposium** — 2025\
-Poster session.
+**Metacognition, Aging and Perception Symposium** — Rovereto, Italy\
+2025 · Poster session\
 
 ## Honours and awards
 
@@ -55,7 +59,7 @@ Poster session.
 
 ## Languages
 
-Romanian (mother tongue) · English (C1) · French (B1) · Italian (A2)
+Romanian (mother tongue) · English (C1) · French (B1) · Italian (A2-B1)
 
 
 

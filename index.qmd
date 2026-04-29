@@ -12,11 +12,17 @@ about:
   image-width: 80%
   links:
     - icon: mortarboard-fill
-      href: https://www.unipd.it/en
+      href: https://phd.psy.unipd.it/people/daria-alexia-ardelean/
+      target: _blank" 
     - icon: github
       href: https://github.com/dariaalexiaardelean
+      target: _blank"} 
     - icon: linkedin
       href: https://www.linkedin.com/in/daria-ardelean-57a8b21b7/
+      target: _blank"} 
+    - icon: person-circle
+      href: https://orcid.org/0009-0009-2583-0362
+      target: _blank"} 
 ---
 
 :::{#hero-heading}

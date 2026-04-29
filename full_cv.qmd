@@ -1,0 +1,170 @@
+---
+title: "Curriculum Vitae"
+author: "Daria Alexia Ardelean"
+date: last-modified
+date-format: "MMMM YYYY"
+format:
+  pdf:
+    documentclass: article
+    papersize: a4
+    pdf-engine: pdflatex
+    geometry:
+      - top=1in
+      - bottom=1in
+      - left=1in
+      - right=1in
+    fontsize: 11pt
+    colorlinks: false
+    include-in-header:
+      text: |
+        \usepackage[T1]{fontenc}
+        \usepackage{ebgaramond}
+        \usepackage{lastpage}
+        \usepackage{titlesec}
+        \usepackage{marvosym}
+        \usepackage{fancyhdr}
+        \usepackage{microtype}
+        \usepackage{hyperref}
+        \hypersetup{hidelinks}
+        % Suppress the auto-generated Quarto/Pandoc title block
+        \renewcommand{\maketitle}{}
+        % ── Page numbers: small, centred in footer ──────────────────────────
+        \pagestyle{fancy}
+        \fancyhf{}
+        \fancyfoot[C]{\footnotesize\thepage\,/\,\pageref{LastPage}}
+        \renewcommand{\headrulewidth}{0pt}
+        \renewcommand{\footrulewidth}{0pt}
+        \fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\footnotesize\thepage\,/\,\pageref{LastPage}}%
+          \renewcommand{\headrulewidth}{0pt}}
+        % ── Section headings: small-caps + bold + rule ───────────────────────
+        \titleformat{\section}{\normalsize\bfseries\scshape}{}{0em}{}[\titlerule]
+        \titlespacing*{\section}{0pt}{1.5em}{0.7em}
+        % ── Global spacing ───────────────────────────────────────────────────
+        \setlength{\parindent}{0pt}
+        \setlength{\parskip}{0.5em}
+---
+
+
+```{=latex}
+\begin{center}
+  {\Large\bfseries Daria Alexia Ardelean}\\[0.25em]
+  {\small\scshape Curriculum Vitae}\\[0.75em]
+  {\small
+    \href{mailto:dariaalexia.ardelean@phd.unipd.it}%
+         {\Email\enspace dariaalexia.ardelean@phd.unipd.it}%
+    \enspace\textbullet\enspace
+    \href{https://orcid.org/0009-0009-2583-0362}{ORCID: 0009-0009-2583-0362}%
+    \enspace\textbullet\enspace
+    \href{https://github.com/dariaalexiaardelean}{GitHub: dariaalexiaardelean}%
+  }\\[0.2em]
+  {\small Padova, Italy\enspace}
+\end{center}
+\noindent\rule{\textwidth}{0.4pt}
+\vspace{0.2em}
+```
+I am a clinical psychologist and PhD student interested in clinical neuropsychology and meta-science.
+
+## Current Position
+
+**PhD in Psychological Sciences** — Department of General Psychology, University of Padova\
+Nov 2025 – present · Supervisor: Giorgio Arcara
+
+**Galilean PhD fellowship** — Social Sciences Class, Galilean School of Higher Education\
+Nov 2025 – present · Class coordinator: Marco Zorzi
+
+## Education and Research Training
+
+**Erasmus+ Traineeship in Non-Invasive Brain Stimulation** — University of Padova, Italy\
+Aug 2025 – Nov 2025 · Supervisor: Giulio Contemori\
+  - Participant recruitment, scheduling, and data collection for an experiment on visual segregation and integration using transcranial electrical stimulation (tES) and electroencephalography (EEG). Contributed to the multicentre TACS Challenge project, including a research visit to a collaborating laboratory in Rovereto. Tools: MATLAB, RStudio, NIC2.
+
+**Voluntary Internship in Meta-Research** — University of Padova, Italy\
+Sep 2024 – Feb 2025 · Supervisor: Ioana Alina Cristea · 6 ECTS\
+  - Running meta-analyses in R and working with existing RCT databases.
+
+**Erasmus+ Study in Clinical Neuropsychology and Cognitive Neuroscience** — University of Padova\
+Feb 2024 – Feb 2025\
+  - Coursework: Individual differences in cognition; Advanced social psychology and social neuroscience; Techniques and methods in psychological assessment (30 cum laude); Clinical neuropsychology; Psychiatry and psychopharmacology (30 cum laude); Neurology; Psychodynamics of family relationships (in Italian).
+
+**MSc, Clinical Psychology and Psychotherapy** — West University of Timișoara\
+Sep 2023 – Sep 2025 · 120 ECTS · Final grade: Excellent\
+  - Thesis: *Moderators of cognitive interventions for mild cognitive impairment* · Supervisor: Andrei Rusu
+
+**Research Training in Organisational Network Analysis** — West University of Timișoara\
+Oct 2022 – Jan 2023\
+  - Introductory training in Network Science; project awarded in a local competition. Skills: data cleaning, network analysis methodology, and analysis using Gephi.
+
+**Research Internship in Experimental Psychology** — West University of Timișoara\
+Sep 2022 – Jul 2023 · Supervisor: Luca Tisu\
+  - Worked with the Work and Organisational Psychology Research Group on the design of a strengths-based intervention for aspiring entrepreneurs and tutored students for the Experimental Psychology course.
+
+**Erasmus+ Study in Psychology** — University of Padova\
+Feb 2022 – Jul 2022
+
+**BSc, Psychology** — West University of Timișoara\
+Nov 2020 – Jul 2023 · 180 ECTS · Final grade: Excellent\
+  - Thesis: *Empowering future entrepreneurs: Testing a strengths-based mindset intervention in a quasi-experimental pilot study*
+
+## Training
+
+**Foundations of network meta-analysis** — Cochrane\
+March 2026 · 24 hours · hybrid course
+
+## Teaching
+
+**Integrative Teaching (Didattica Integrativa)** — Statistical Methods for Psychology (Prof. Stefano Noventa)\
+2025 - 2026 · 20 hours · University of Padova\
+  - Preparation and grading of practical exercises in JASP.
+  
+**Experimental Psychology Tutor** — Experimental Psychology (Prof. Delia Vîrgă)\
+2021 – 2022 · 20 hours · West University of Timișoara\
+  - Tutored first-year Psychology students for one semester; graded weekly written assignments and provided feedback.
+
+## Work Experience
+
+**Clinical Psychologist** — Syncare Psychology Clinic, Lugoj, Romania\
+Mar 2025 – present\
+  - Currently training in psychotherapy. Provided psychological assessment and brief interventions. Registered as clinical psychologist under supervision since May 2024.
+
+**Project Manager** — PROW Conference, Cowork Timișoara, Romania\
+May 2021 – Apr 2024\
+  - Contributed to building the largest product conference in Western Romania; defined and monitored Objective Key Results; led a team of 10+ people. Worked on national and international projects including Timișoara Startups (project manager), Innovation Labs, and Techstars Startup Weekend Timișoara.
+
+**Project Coordinator** — Association of Sociology and Psychology Students, Timișoara\
+Dec 2020 – Aug 2021\
+  - Defined and monitored objectives, evaluated coordinators, fundraising and partnerships, organisation of online and on-site public events, and moderation of meetings and workshops.
+
+
+## Publications
+
+Ardelean, D. A., Tisu, L., & Vîrgă, D. (2025). Empowering future entrepreneurs: Testing a strengths-based mindset intervention in a quasi-experimental pilot study. *Psihologia Resurselor Umane Journal*, 23(1).
+
+## Conferences and Presentations
+
+**Metacognition, Aging and Perception Symposium** — Rovereto, Italy, Sep 2025\
+Poster session.
+
+**National Alzheimer Conference** — Bucharest, Romania, Jun 2025\
+E-poster session.
+
+## Honours and Awards
+
+**Galilean Fellowship for Doctoral Studies (3 years)** — Scuola Galileiana di Studi Superiori, Social Sciences Class, 2025
+
+## Languages
+
+Romanian (mother tongue) · English (C1) · French (B1) · Italian (A2-B1)
+
+## Skills
+
+Project management · psychological assessment · data analysis · statistics · systematic reviews and meta-analysis · network analysis · experimental psychology · R/RStudio (intermediate) · MATLAB (basic) · Github (intermediate) · VSCode (intermediate) · Quarto (intermediate) · SPSS (proficient) · JASP (proficient) · Jamovi (proficient) · Gephi (intermediate) · MRIcron (basic) · Brainstorm (basic) · EEGLab (basic) · Google Suite (proficient).
+
+```{=latex}
+\vspace{2.5em}
+\noindent\rule{\textwidth}{0.4pt}\\[0.6em]
+{\small Last updated: \today}
+
+\vspace{1.5em}
+\noindent\includegraphics[height=2cm]{files/images/Signature.png}\\[0.3em]
+\noindent\textit{Daria Alexia Ardelean}
+```

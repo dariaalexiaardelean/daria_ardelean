@@ -4,8 +4,12 @@
 
 /.luarc.json
 
-/*.jpg
-
 /*.Rhistory
 
+*DS_Store
+
 /files
+
+
+
+
