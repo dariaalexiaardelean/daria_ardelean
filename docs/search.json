@@ -222,5 +222,96 @@
     "title": "Curriculum Vitae",
     "section": "Skills",
     "text": "Skills\nProject management · psychological assessment · data analysis · statistics · systematic reviews and meta-analysis · network analysis · experimental psychology · R/RStudio (intermediate) · MATLAB (basic) · Github (intermediate) · VSCode (intermediate) · Quarto (intermediate) · SPSS (proficient) · JASP (proficient) · Jamovi (proficient) · Gephi (intermediate) · MRIcron (basic) · Brainstorm (basic) · EEGLab (basic) · Google Suite (proficient)."
+  },
+  {
+    "objectID": "slides/template.html",
+    "href": "slides/template.html",
+    "title": "Cognitive rehabilitation for stroke survivors",
+    "section": "",
+    "text": "What we will cover\n\n\nThe clinical problem\nWhy meta-research\nOur systematic review\nFindings\nOpen questions\n\n\n\n\n\nBackground\n\nStroke is among the leading causes of long-term disability worldwide. Cognitive impairment affects roughly one in three survivors, persisting beyond the acute phase across attention, memory, and executive function.\nDozens of cognitive interventions have been trialled — from computerised training to compensatory strategy programmes — yet the evidence base remains fragmented and difficult to synthesise.\n\n\n\n\nApproach\n\n\n\nA meta-research perspective steps back from individual trials and asks how the field as a whole is conducting, reporting, and synthesising evidence.\nIt treats the literature itself as the data — and applies the same methodological rigour to it that we would apply to any primary study.\n\n\n\n\n\n\n\nThree questions\n\nHow are these trials designed?\nWhat is reported, and how?\nHow can the evidence be reliably synthesised?"
+  },
+  {
+    "objectID": "slides/template.html#outline",
+    "href": "slides/template.html#outline",
+    "title": "Cognitive rehabilitation for stroke survivors",
+    "section": "",
+    "text": "What we will cover\n\n\nThe clinical problem\nWhy meta-research\nOur systematic review\nFindings\nOpen questions"
+  },
+  {
+    "objectID": "slides/template.html#the-clinical-problem",
+    "href": "slides/template.html#the-clinical-problem",
+    "title": "Cognitive rehabilitation for stroke survivors",
+    "section": "",
+    "text": "Background\n\nStroke is among the leading causes of long-term disability worldwide. Cognitive impairment affects roughly one in three survivors, persisting beyond the acute phase across attention, memory, and executive function.\nDozens of cognitive interventions have been trialled — from computerised training to compensatory strategy programmes — yet the evidence base remains fragmented and difficult to synthesise."
+  },
+  {
+    "objectID": "slides/template.html#why-meta-research",
+    "href": "slides/template.html#why-meta-research",
+    "title": "Cognitive rehabilitation for stroke survivors",
+    "section": "",
+    "text": "Approach\n\n\n\nA meta-research perspective steps back from individual trials and asks how the field as a whole is conducting, reporting, and synthesising evidence.\nIt treats the literature itself as the data — and applies the same methodological rigour to it that we would apply to any primary study.\n\n\n\n\n\n\n\nThree questions\n\nHow are these trials designed?\nWhat is reported, and how?\nHow can the evidence be reliably synthesised?"
+  },
+  {
+    "objectID": "slides/template.html#systematic-review-protocol",
+    "href": "slides/template.html#systematic-review-protocol",
+    "title": "Cognitive rehabilitation for stroke survivors",
+    "section": "Systematic review protocol",
+    "text": "Systematic review protocol\n\nInclusion · sources\n\n\n\nInclusion\nRCTs of post-stroke cognitive interventions; adult survivors with documented cognitive impairment at baseline; follow-up of at least four weeks.\n\nSources\nPubMed · Embase · PsycINFO · Cochrane CENTRAL. Hand-searching of references and trial registries through January 2026."
+  },
+  {
+    "objectID": "slides/template.html#risk-of-bias-assessment",
+    "href": "slides/template.html#risk-of-bias-assessment",
+    "title": "Cognitive rehabilitation for stroke survivors",
+    "section": "Risk-of-bias assessment",
+    "text": "Risk-of-bias assessment\n\nQuality appraisal\n\n\n\n\nDomain\nLow risk\nSome concerns\nHigh risk\n\n\n\n\nRandomisation\n28\n12\n7\n\n\nDeviations from intended intervention\n19\n21\n7\n\n\nMissing outcome data\n31\n11\n5\n\n\nMeasurement of outcome\n22\n17\n8\n\n\nSelection of reported result\n33\n10\n4\n\n\n\nRandom-effects RoB 2 across the 47 included trials."
+  },
+  {
+    "objectID": "slides/template.html#pooled-effect-on-global-cognition",
+    "href": "slides/template.html#pooled-effect-on-global-cognition",
+    "title": "Cognitive rehabilitation for stroke survivors",
+    "section": "Pooled effect on global cognition",
+    "text": "Pooled effect on global cognition\n\nPrimary outcome\n\n\n0.31\n\n\nSMD, 95% CI 0.18 – 0.44 · k = 47 trials · n = 4,218 participants\n\nSubstantial heterogeneity (I² = 68%) suggests effects are not uniform across intervention types, populations, or follow-up windows."
+  },
+  {
+    "objectID": "slides/template.html#on-the-methodology-itself",
+    "href": "slides/template.html#on-the-methodology-itself",
+    "title": "Cognitive rehabilitation for stroke survivors",
+    "section": "On the methodology itself",
+    "text": "On the methodology itself\n\nThe field has produced dozens of trials, but their methodological diversity — small samples, inconsistent outcome measures, brief follow-up — makes a confident pooled estimate elusive without careful sub-group analysis.\n\n\n— Discussion, Chapter 5"
+  },
+  {
+    "objectID": "slides/template.html#sub-group-analysis",
+    "href": "slides/template.html#sub-group-analysis",
+    "title": "Cognitive rehabilitation for stroke survivors",
+    "section": "Sub-group analysis",
+    "text": "Sub-group analysis\n\nIntervention modality\n\n\nComputerised training · 0.42 (95% CI 0.24 – 0.60), k = 18\nCompensatory strategy · 0.28 (95% CI 0.09 – 0.47), k = 14\nCombined / multi-modal · 0.21 (95% CI 0.04 – 0.38), k = 10\nOther / unclassified · 0.15 (95% CI -0.08 – 0.38), k = 5\n\nEffects largest for computerised training, but with greatest heterogeneity — caution warranted."
+  },
+  {
+    "objectID": "slides/template.html#open-questions",
+    "href": "slides/template.html#open-questions",
+    "title": "Cognitive rehabilitation for stroke survivors",
+    "section": "Open questions",
+    "text": "Open questions\n\nNext steps\n\n\nWhich intervention modalities show the most consistent effects across populations?\nAre there patient-level moderators — stroke type, time-since-onset, baseline severity — that predict response?\nHow should future trials be designed to support meaningful evidence synthesis?"
+  },
+  {
+    "objectID": "slides/template.html#implications-for-the-field",
+    "href": "slides/template.html#implications-for-the-field",
+    "title": "Cognitive rehabilitation for stroke survivors",
+    "section": "Implications for the field",
+    "text": "Implications for the field\n\nWhat needs to change\n\nThe cognitive rehabilitation literature would benefit from:\n\nStandardised outcome sets — a minimum reporting standard for trial endpoints\nPre-registration as routine practice, not exception\nPatient-level data sharing to enable individual-participant meta-analysis\nLonger follow-up to test whether short-term gains translate into durable functional change"
+  },
+  {
+    "objectID": "slides/template.html#thank-you",
+    "href": "slides/template.html#thank-you",
+    "title": "Cognitive rehabilitation for stroke survivors",
+    "section": "Thank you",
+    "text": "Thank you\n\nThank you\n\n\nDaria Alexia Ardelean\ndariaalexia.ardelean@studenti.unipd.it\nDepartment of General Psychology\nUniversità degli Studi di Padova"
+  },
+  {
+    "objectID": "slides/template.html#references",
+    "href": "slides/template.html#references",
+    "title": "Cognitive rehabilitation for stroke survivors",
+    "section": "References",
+    "text": "References\n\nArdelean, D. A., Tisu, L., & Vîrgă, D. (2025). Empowering future entrepreneurs: Testing a strengths-based mindset intervention in a quasi-experimental pilot study. Psihologia Resurselor Umane Journal, 23(1).\nCumming, T. B., et al. (2013). The effect of physical activity on cognitive function after stroke: a systematic review. International Psychogeriatrics, 25(5), 752–763.\ndas Nair, R., et al. (2016). Cognitive rehabilitation for memory deficits after stroke. Cochrane Database of Systematic Reviews, 9.\nLoetscher, T., et al. (2019). Cognitive rehabilitation for attention deficits following stroke. Cochrane Database of Systematic Reviews, 11.\nHiggins, J. P. T., & Thompson, S. G. (2002). Quantifying heterogeneity in a meta-analysis. Statistics in Medicine, 21(11), 1539–1558."
   }
 ]

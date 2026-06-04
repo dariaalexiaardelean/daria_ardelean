@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://dariaalexiaardelean.github.io/daria_ardelean/index.html</loc>
-    <lastmod>2026-04-29T15:24:50.641Z</lastmod>
+    <lastmod>2026-06-04T19:44:14.188Z</lastmod>
   </url>
   <url>
     <loc>https://dariaalexiaardelean.github.io/daria_ardelean/cv.html</loc>
@@ -19,5 +19,9 @@
   <url>
     <loc>https://dariaalexiaardelean.github.io/daria_ardelean/full_cv.html</loc>
     <lastmod>2026-04-29T15:14:00.860Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dariaalexiaardelean.github.io/daria_ardelean/slides/template.html</loc>
+    <lastmod>2026-05-14T14:17:56.298Z</lastmod>
   </url>
 </urlset>
