@@ -1,0 +1,430 @@
+/*-- scss:defaults --*/
+
+// ============================================================
+// Athena slides theme — Cognitive rehabilitation thesis
+// Typography: Helvetica Neue (titles) + Avenir Next (body, data)
+// Web fallbacks: Inter + Nunito Sans (loaded below)
+// ============================================================
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito+Sans:wght@300;400;500;600;700&display=swap');
+
+// ----- Palette ---------------------------------------------
+$athena:     #8B95C9;
+$rose:       #E8B5A8;
+$gold:       #C9A961;
+$night:      #2D3550;
+$terracotta: #8B4543;
+$storm:      #6B7894;
+$cream:      #EDE3D4;
+$paper:      #FBF7EF;
+$ink:        #1A1F2E;
+$paper-on-night: #C9D0E0;
+
+// ----- Type stacks -----------------------------------------
+$font-display: "Helvetica Neue", "Inter", system-ui, -apple-system, sans-serif;
+$font-body:    "Avenir Next", "Avenir", "Nunito Sans", "Helvetica Neue", sans-serif;
+$font-mono:    "JetBrains Mono", "SFMono-Regular", Menlo, Monaco, monospace;
+
+// ----- Revealjs root variables -----------------------------
+$body-bg:    $cream !default;
+$body-color: $ink !default;
+
+$presentation-font-family-root: $font-body !default;
+$presentation-font-size-root:  32px !default;
+$presentation-line-height: 1.45 !default;
+
+$presentation-heading-font: $font-display !default;
+$presentation-heading-color: $ink !default;
+$presentation-heading-font-weight: 700 !default;
+$presentation-heading-line-height: 1.12 !default;
+$presentation-heading-letter-spacing: -0.012em !default;
+$presentation-heading-text-transform: none !default;
+
+$presentation-h1-font-size: 2.2em !default;
+$presentation-h2-font-size: 1.4em !default;
+$presentation-h3-font-size: 1.1em !default;
+
+$link-color:       $athena !default;
+$link-color-hover: $terracotta !default;
+
+$selection-bg:    $athena !default;
+$selection-color: $paper !default;
+
+$code-color:       $terracotta !default;
+$code-block-bg:    $paper !default;
+$code-block-border-color: $gold !default;
+
+
+/*-- scss:rules --*/
+
+/* ----- Base ----------------------------------------------- */
+.reveal {
+  font-family: #{$font-body};
+  color: $ink;
+}
+
+.reveal a {
+  color: $athena;
+  text-decoration: none;
+  border-bottom: 0.5px solid rgba($athena, 0.45);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.reveal a:hover {
+  color: $terracotta;
+  border-bottom-color: $terracotta;
+}
+
+.reveal ::selection { background: $athena; color: $paper; }
+
+
+/* ----- Headings ------------------------------------------- */
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6,
+.reveal .title,
+.reveal .subtitle {
+  font-family: #{$font-display};
+  letter-spacing: -0.012em;
+  font-weight: 700;
+}
+
+/* H2 used as a slide title: gold left-rule */
+.reveal section h2:not(.subtitle):first-child,
+.reveal h2.slide-title {
+  border-left: 3px solid $gold;
+  padding-left: 0.55em;
+  margin-top: 0;
+  margin-bottom: 0.7em;
+  color: $ink;
+}
+
+
+/* ----- Eyebrow label (custom div) ------------------------- */
+.reveal .eyebrow,
+.reveal div.eyebrow,
+.reveal p.eyebrow {
+  font-family: #{$font-body};
+  font-size: 0.5em;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: $terracotta;
+  font-weight: 600;
+  margin: 0 0 0.6em;
+  display: block;
+}
+
+
+/* ----- Title slide ---------------------------------------- */
+.reveal .title-slide {
+  text-align: left;
+}
+
+.reveal .title-slide h1.title {
+  font-family: #{$font-display};
+  font-size: 2.4em;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: $cream;
+  line-height: 1.05;
+  margin: 0 0 0.2em;
+  border-left: none;
+  padding-left: 0;
+}
+
+.reveal .title-slide .subtitle {
+  font-family: #{$font-display};
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.2em;
+  color: $athena;
+  margin: 0 0 1.4em;
+}
+
+.reveal .title-slide .author,
+.reveal .title-slide .quarto-title-author-name,
+.reveal .title-slide .quarto-title-affiliation,
+.reveal .title-slide .institute,
+.reveal .title-slide .date {
+  font-family: #{$font-body};
+  color: $paper-on-night;
+  font-size: 0.55em;
+  letter-spacing: 0.04em;
+  margin: 0.15em 0;
+}
+
+.reveal .title-slide .date {
+  color: $gold;
+  font-size: 0.45em;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-top: 1.2em;
+}
+
+/* Gold rule under the subtitle on title slide */
+.reveal .title-slide .subtitle::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 1.5px;
+  background: $gold;
+  margin-top: 0.5em;
+}
+
+
+/* ----- Section header slides (level-1 headings) ----------- */
+.reveal section.slide h1 {
+  font-family: #{$font-display};
+  font-size: 2.0em;
+  font-weight: 700;
+  color: $ink;
+  letter-spacing: -0.015em;
+  line-height: 1.05;
+  border-left: none;
+  padding-left: 0;
+}
+
+
+/* ----- Content slides ------------------------------------- */
+.reveal section p,
+.reveal section li {
+  font-family: #{$font-body};
+  color: $ink;
+}
+
+.reveal section ul,
+.reveal section ol {
+  margin-left: 0;
+  padding-left: 1.2em;
+}
+
+.reveal section li {
+  margin-bottom: 0.45em;
+  line-height: 1.4;
+}
+
+.reveal section li::marker {
+  color: $gold;
+}
+
+.reveal strong, .reveal b {
+  font-weight: 700;
+  color: $night;
+}
+
+.reveal em, .reveal i {
+  color: $ink;
+}
+
+
+/* ----- Big-number callout (custom class) ------------------ */
+.reveal .big-number {
+  font-family: #{$font-body};
+  font-size: 3.4em;
+  font-weight: 600;
+  line-height: 1;
+  color: $ink;
+  letter-spacing: -0.02em;
+  margin: 0.2em 0 0.1em;
+}
+
+.reveal .big-number-meta {
+  font-family: #{$font-body};
+  font-size: 0.6em;
+  color: $storm;
+  letter-spacing: 0.02em;
+  margin-bottom: 1em;
+}
+
+
+/* ----- Thank-you slide ------------------------------------ */
+.reveal .thank-you {
+  font-family: #{$font-display};
+  font-size: 3em;
+  font-weight: 700;
+  color: $cream;
+  letter-spacing: -0.015em;
+  margin-bottom: 0.4em;
+}
+
+.reveal .thank-you-meta {
+  font-family: #{$font-body};
+  font-size: 0.55em;
+  color: $paper-on-night;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+}
+
+
+/* ----- Blockquote / pull-quote ---------------------------- */
+.reveal blockquote {
+  border-left: 3px solid $gold;
+  background: transparent;
+  padding: 0.4em 0 0.4em 1em;
+  margin: 1em 0;
+  font-family: #{$font-body};
+  font-style: italic;
+  color: $night;
+  font-size: 0.95em;
+  line-height: 1.45;
+  box-shadow: none;
+}
+
+.reveal blockquote p {
+  margin: 0;
+}
+
+.reveal .quote-attr {
+  font-family: #{$font-body};
+  font-size: 0.55em;
+  color: $storm;
+  margin-top: 0.6em;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+
+
+/* ----- Code ----------------------------------------------- */
+.reveal code:not(pre code) {
+  background: $cream;
+  color: $terracotta;
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+  font-family: #{$font-mono};
+  font-size: 0.9em;
+  border: 0.5px solid rgba($gold, 0.4);
+}
+
+.reveal pre {
+  background: $paper !important;
+  border: 0.5px solid rgba($gold, 0.4);
+  border-left: 3px solid $gold;
+  border-radius: 3px;
+  font-family: #{$font-mono};
+  font-size: 0.55em;
+  line-height: 1.4;
+  padding: 0.7em 1em;
+}
+
+
+/* ----- Tables --------------------------------------------- */
+.reveal table {
+  font-family: #{$font-body};
+  font-size: 0.7em;
+  border-collapse: collapse;
+  margin: 0.5em 0;
+}
+
+.reveal table th {
+  font-family: #{$font-body};
+  font-weight: 600;
+  font-size: 0.78em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: $terracotta;
+  border-bottom: 0.5px solid $gold !important;
+  padding: 0.5em 0.8em;
+  text-align: left;
+}
+
+.reveal table td {
+  padding: 0.45em 0.8em;
+  border-bottom: 0.5px solid rgba($storm, 0.18);
+  color: $ink;
+}
+
+
+/* ----- Figures / captions --------------------------------- */
+.reveal figure {
+  margin: 0.4em 0;
+}
+
+.reveal figcaption {
+  font-family: #{$font-body};
+  font-size: 0.45em;
+  color: $storm;
+  text-align: center;
+  font-style: italic;
+  margin-top: 0.5em;
+  letter-spacing: 0.02em;
+}
+
+
+/* ----- Slide number / footer ------------------------------ */
+.reveal .slide-number {
+  font-family: #{$font-body};
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  color: $storm;
+  background: transparent;
+  bottom: 18px;
+  right: 24px;
+}
+
+.reveal .footer {
+  font-family: #{$font-body};
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  color: $storm;
+}
+
+
+/* ----- Callouts (Quarto) ---------------------------------- */
+.reveal div.callout {
+  font-family: #{$font-body};
+  font-size: 0.7em;
+  border-left: 3px solid $athena;
+  background: rgba($athena, 0.06);
+  border-radius: 3px;
+  padding: 0.8em 1em;
+}
+
+.reveal div.callout-note { border-left-color: $athena; }
+.reveal div.callout-tip { border-left-color: $gold; }
+.reveal div.callout-warning { border-left-color: $terracotta; }
+.reveal div.callout-caution { border-left-color: $rose; }
+.reveal div.callout-important { border-left-color: $night; }
+
+.reveal div.callout .callout-title {
+  font-family: #{$font-body};
+  font-weight: 600;
+  font-size: 0.85em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: $terracotta;
+}
+
+
+/* ----- Columns -------------------------------------------- */
+.reveal .columns {
+  gap: 1.8em;
+}
+
+
+/* ----- Progress / controls -------------------------------- */
+.reveal .progress {
+  color: $gold;
+  height: 2px;
+}
+
+.reveal .controls {
+  color: $storm;
+}
+
+
+/* ----- References slide ----------------------------------- */
+.reveal .references {
+  font-family: #{$font-body};
+  font-size: 0.45em;
+  line-height: 1.55;
+  color: $storm;
+}
+
+.reveal .references p {
+  text-indent: -1.4em;
+  padding-left: 1.4em;
+  margin-bottom: 0.5em;
+}

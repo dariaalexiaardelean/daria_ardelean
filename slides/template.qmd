@@ -1,0 +1,211 @@
+---
+title: "Cognitive rehabilitation for stroke survivors"
+subtitle: "A meta-research perspective"
+author: "Daria Alexia Ardelean"
+institute: "Department of General Psychology · Università degli Studi di Padova"
+date: "April 2026"
+date-format: "MMMM YYYY"
+format:
+  revealjs:
+    theme: [default, athena-slides.scss]
+    slide-number: c/t
+    show-slide-number: all
+    width: 1280
+    height: 720
+    transition: fade
+    background-transition: fade
+    fig-align: center
+    fig-cap-location: bottom
+    code-overflow: wrap
+    embed-resources: false
+    history: false
+    margin: 0.08
+    center: false
+title-slide-attributes:
+  data-background-color: "#2D3550"
+  data-background-image: assets/motifs/diamond-dark.svg
+  data-background-size: 96px
+  data-background-position: "right 80px top 80px"
+---
+
+# Part one · introduction {background-color="#8B95C9"}
+
+## Outline
+
+::: {.eyebrow}
+What we will cover
+:::
+
+1. The clinical problem
+2. Why meta-research
+3. Our systematic review
+4. Findings
+5. Open questions
+
+## The clinical problem
+
+::: {.eyebrow}
+Background
+:::
+
+Stroke is among the leading causes of long-term disability worldwide. Cognitive impairment affects roughly **one in three survivors**, persisting beyond the acute phase across attention, memory, and executive function.
+
+Dozens of cognitive interventions have been trialled — from computerised training to compensatory strategy programmes — yet the evidence base remains fragmented and difficult to synthesise.
+
+## Why meta-research
+
+::: {.eyebrow}
+Approach
+:::
+
+:::: {.columns}
+
+::: {.column width="55%"}
+A *meta-research* perspective steps back from individual trials and asks how the field as a whole is conducting, reporting, and synthesising evidence.
+
+It treats the literature itself as the data — and applies the same methodological rigour to it that we would apply to any primary study.
+:::
+
+::: {.column width="45%"}
+::: {.callout-note appearance="minimal"}
+**Three questions**
+
+1. How are these trials designed?
+2. What is reported, and how?
+3. How can the evidence be reliably synthesised?
+:::
+:::
+
+::::
+
+# Part two · methods {background-color="#8B95C9"}
+
+## Systematic review protocol
+
+::: {.eyebrow}
+Inclusion · sources
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Inclusion**
+
+RCTs of post-stroke cognitive interventions; adult survivors with documented cognitive impairment at baseline; follow-up of at least four weeks.
+:::
+
+::: {.column width="50%"}
+**Sources**
+
+PubMed · Embase · PsycINFO · Cochrane CENTRAL. Hand-searching of references and trial registries through January 2026.
+:::
+
+::::
+
+## Risk-of-bias assessment
+
+::: {.eyebrow}
+Quality appraisal
+:::
+
+| Domain | Low risk | Some concerns | High risk |
+|---|---:|---:|---:|
+| Randomisation | 28 | 12 | 7 |
+| Deviations from intended intervention | 19 | 21 | 7 |
+| Missing outcome data | 31 | 11 | 5 |
+| Measurement of outcome | 22 | 17 | 8 |
+| Selection of reported result | 33 | 10 | 4 |
+
+Random-effects RoB 2 across the 47 included trials.
+
+# Part three · findings {background-color="#8B95C9"}
+
+## Pooled effect on global cognition {background-color="#EDE3D4"}
+
+::: {.eyebrow}
+Primary outcome
+:::
+
+::: {.big-number}
+**0.31**
+:::
+
+::: {.big-number-meta}
+SMD, 95% CI 0.18 – 0.44 · *k* = 47 trials · *n* = 4,218 participants
+:::
+
+Substantial heterogeneity (I² = 68%) suggests effects are not uniform across intervention types, populations, or follow-up windows.
+
+## On the methodology itself
+
+> The field has produced dozens of trials, but their methodological diversity — small samples, inconsistent outcome measures, brief follow-up — makes a confident pooled estimate elusive without careful sub-group analysis.
+
+::: {.quote-attr}
+— Discussion, Chapter 5
+:::
+
+## Sub-group analysis
+
+::: {.eyebrow}
+Intervention modality
+:::
+
+- **Computerised training** · 0.42 (95% CI 0.24 – 0.60), k = 18
+- **Compensatory strategy** · 0.28 (95% CI 0.09 – 0.47), k = 14
+- **Combined / multi-modal** · 0.21 (95% CI 0.04 – 0.38), k = 10
+- **Other / unclassified** · 0.15 (95% CI -0.08 – 0.38), k = 5
+
+Effects largest for computerised training, but with greatest heterogeneity — caution warranted.
+
+# Part four · discussion {background-color="#8B95C9"}
+
+## Open questions
+
+::: {.eyebrow}
+Next steps
+:::
+
+1. Which intervention modalities show the most consistent effects across populations?
+2. Are there patient-level moderators — stroke type, time-since-onset, baseline severity — that predict response?
+3. How should future trials be designed to support meaningful evidence synthesis?
+
+## Implications for the field
+
+::: {.eyebrow}
+What needs to change
+:::
+
+The cognitive rehabilitation literature would benefit from:
+
+- **Standardised outcome sets** — a minimum reporting standard for trial endpoints
+- **Pre-registration** as routine practice, not exception
+- **Patient-level data sharing** to enable individual-participant meta-analysis
+- **Longer follow-up** to test whether short-term gains translate into durable functional change
+
+## Thank you {background-color="#2D3550"}
+
+::: {.thank-you}
+Thank you
+:::
+
+::: {.thank-you-meta}
+Daria Alexia Ardelean\
+dariaalexia.ardelean\@studenti.unipd.it
+
+Department of General Psychology\
+Università degli Studi di Padova
+:::
+
+## References
+
+::: {.references}
+Ardelean, D. A., Tisu, L., & Vîrgă, D. (2025). Empowering future entrepreneurs: Testing a strengths-based mindset intervention in a quasi-experimental pilot study. *Psihologia Resurselor Umane Journal*, 23(1).
+
+Cumming, T. B., et al. (2013). The effect of physical activity on cognitive function after stroke: a systematic review. *International Psychogeriatrics*, 25(5), 752–763.
+
+das Nair, R., et al. (2016). Cognitive rehabilitation for memory deficits after stroke. *Cochrane Database of Systematic Reviews*, 9.
+
+Loetscher, T., et al. (2019). Cognitive rehabilitation for attention deficits following stroke. *Cochrane Database of Systematic Reviews*, 11.
+
+Higgins, J. P. T., & Thompson, S. G. (2002). Quantifying heterogeneity in a meta-analysis. *Statistics in Medicine*, 21(11), 1539–1558.
+:::
